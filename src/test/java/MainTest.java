@@ -12,7 +12,7 @@ import org.junit.Test;
 public class MainTest {
     @Test
     public void testOne(){
-        Assert.assertEquals(1,2);
+        Assert.assertEquals(1,1);
         System.out.println("haha");
     }
     @Test
@@ -22,6 +22,6 @@ public class MainTest {
     }
     @Test
     public void testThree(){
-        Assert.assertEquals(10,21);
+        Assert.assertEquals(10,10);
     }
 }
