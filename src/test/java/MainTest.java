@@ -20,4 +20,8 @@ public class MainTest {
         Assert.assertEquals(2,2);
         System.out.println("haha");
     }
+    @Test
+    public void testThree(){
+        Assert.assertEquals(10,21);
+    }
 }
