@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -11,6 +12,12 @@ import org.junit.Test;
 public class MainTest {
     @Test
     public void testOne(){
+        Assert.assertEquals(1,2);
+        System.out.println("haha");
+    }
+    @Test
+    public void testTow(){
+        Assert.assertEquals(2,2);
         System.out.println("haha");
     }
 }
